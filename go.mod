@@ -5,17 +5,23 @@ go 1.13
 require (
 	github.com/MarSik/kubevirt-ssp-operator v1.0.28
 	github.com/blang/semver v3.5.1+incompatible
+	github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-logr/logr v0.1.0
 	github.com/go-openapi/spec v0.19.4
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/googleapis/gnostic v0.4.1 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway v1.9.4 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/imdario/mergo v0.3.8
 	github.com/kubevirt/cluster-network-addons-operator v0.3.1-0.20200226122004-919521cbbe11
+	github.com/mitchellh/hashstructure v1.0.0 // indirect
+	github.com/munnerz/goautoneg v0.0.0-20190414153302-2ae31c8b6b30 // indirect
 	github.com/onsi/ginkgo v1.10.1
 	github.com/onsi/gomega v1.7.0
+	github.com/openshift/api v3.9.1-0.20190924102528-32369d4db2ad+incompatible // indirect
 	github.com/openshift/custom-resource-status v0.0.0-20190822192428-e62f2f3b79f3
 	github.com/operator-framework/operator-lifecycle-manager v0.0.0-20191220211133-23f5c0292434
 	github.com/operator-framework/operator-sdk v0.10.0
@@ -27,6 +33,7 @@ require (
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2 // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
 	golang.org/x/sys v0.0.0-20200217220822-9197077df867 // indirect
+	gonum.org/v1/gonum v0.0.0-20190710053202-4340aa3071a0 // indirect
 	k8s.io/api v0.17.3
 	k8s.io/apiextensions-apiserver v0.17.3
 	k8s.io/apimachinery v0.17.3
